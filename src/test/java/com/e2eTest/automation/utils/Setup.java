@@ -63,7 +63,7 @@ public class Setup {
 		return driver ;
 	}
 	
-	
-	
-	
+	public static Logger getLogger() {
+		return LOGGER; 
+	}
 }
