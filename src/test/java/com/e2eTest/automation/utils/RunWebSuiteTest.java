@@ -11,7 +11,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 		features = {"src/spec/features"},
 		plugin = {"pretty","html:target/cucumber-report.html"},
 		//glue = {"step_definitions"},
-		tags = (""),
+		tags = ("@buzz1"),
 		monochrome = true,
 		snippets = CAMELCASE
 		
